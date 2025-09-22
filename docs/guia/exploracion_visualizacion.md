@@ -61,7 +61,7 @@ print(p.saludar())  # "Hola, soy Ana y tengo 25 años."
 
 Trabajaremos con el siguiente conjunto de datos:
 
-[![Descargar datos](https://img.shields.io/badge/descargar-datos-blue)](https://raw.githubusercontent.com/patymunoz/curso-machine-learning-python/main/docs/datos/iris_.csv)
+[![Descargar datos](https://img.shields.io/badge/descargar-datos-blue)]({download}`datos/iris_.csv`)
 
 ## Contenidos de esta sesión
 
