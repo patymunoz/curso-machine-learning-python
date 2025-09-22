@@ -22,7 +22,12 @@ myst_enable_extensions = [
 
 # Rutas y exclusiones
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = [
+    '_build',
+    '**/.ipynb_checkpoints',
+    'notebooks/*.ipynb',
+    '**/*.html',
+]
 
 # --- Tema ---
 html_theme = 'sphinx_book_theme'
@@ -37,7 +42,7 @@ html_theme_options = {
 }
 
 html_title = "Curso de Machine Learning en Python"
-html_logo = "_static/aprendizaje-profundo.png" 
+html_logo = "_static/grafico-de-lineas.png" 
 html_static_path = ['_static']
 
 # Reconocer archivos .md como Markdown
