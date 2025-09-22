@@ -61,10 +61,10 @@ print(p.saludar())  # "Hola, soy Ana y tengo 25 años."
 
 Trabajaremos con el siguiente conjunto de datos:
 
-[![Descargar datos](https://img.shields.io/badge/descargar-datos-blue)](../source/datos/iris_csv)
+[![Descargar datos](https://img.shields.io/badge/descargar-datos-blue)](../datos/iris_.csv)
 
 ## Contenidos de esta sesión
 
 En esta sesión estaremos trabajando con este cuaderno de trabajo:
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patymunoz/curso-machine-learning-python/blob/main/notebooks/exploracion-visualizacion.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patymunoz/curso-machine-learning-python/blob/main/docs/notebooks/exploracion-visualizacion.ipynb)
