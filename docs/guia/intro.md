@@ -80,7 +80,40 @@ De manera general, cualquier modelo de ML se puede describir a partir de tres el
 
 En la práctica, la variación entre diferentes algoritmos de ML suele estar en una de estas tres piezas, mientras que las demás se mantienen relativamente constantes.
 
----
+```{admonition} Ejemplo: Regresión lineal
+:class: tip
+
+**1. Modelo matemático**
+
+- Forma simple (una variable):
+
+  $$\hat{y} = w x + b$$
+
+- Forma multivariable:
+
+  $$ \hat{y} = \mathbf{w}^\top \mathbf{x} + b $$
+
+**2. Función objetivo**
+
+Se suele usar el **Error Cuadrático Medio (MSE)**:
+
+$$
+J(\mathbf{w}, b) = \frac{1}{n} \sum_{i=1}^{n} \big(\hat{y}^{(i)} - y^{(i)}\big)^2
+$$
+
+
+
+**3. Algoritmo de aprendizaje (optimización)**
+
+**a) Solución analítica (mínimos cuadrados ordinarios):**
+
+$$
+\mathbf{w} = (X^\top X)^{-1} X^\top y
+$$
+
+
+**b) Solución iterativa (Descenso de Gradiente)**
+```
 
 ## ¿Por qué el ML se volvió tan relevante?
 

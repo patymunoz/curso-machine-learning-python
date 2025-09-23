@@ -18,6 +18,7 @@ extensions = [
 # MyST
 myst_enable_extensions = [
     "colon_fence",
+    "dollarmath"
 ]
 
 # Rutas y exclusiones
