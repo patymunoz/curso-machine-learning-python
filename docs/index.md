@@ -39,8 +39,8 @@ guia/exploracion_visualizacion
 guia/limpieza_preprocesamiento
 guia/aprendizaje_supervisado
 guia/aprendizaje_no_supervisado
+guia/integracion
 guia/evaluacion_curso
-
 ```
 
 ## 🌐 Metodología
