@@ -4,6 +4,3 @@ docs/_build/
 **/.ipynb_checkpoints/
 # Entorno
 .venv/
-
-# 
-notebooks/limpieza_preprocesamiento.ipynb
